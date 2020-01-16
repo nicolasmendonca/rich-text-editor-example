@@ -1,12 +1,32 @@
 #control-panel {
-    background-color: #fff;
-    height: 25px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 5px;
+	background-color: #f1f0f0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 5px;
 }
+
 #format-actions {
-    width: 200px;
-    margin-right: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#format-actions button,
+#format-actions input[type='color'] {
+	width: 40px;
+	height: 40px;
+	background-color: #ffdeb6;
+	padding: 3px;
+	border-radius: 3px;
+	border: 1px solid black;
+	margin: 0 1px;
+}
+
+#format-actions input[type='color'] {
+	height: 32px;
+}
+
+.active {
+	background-color: #fea73e !important;
 }

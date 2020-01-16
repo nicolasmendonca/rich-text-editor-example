@@ -1,0 +1,27 @@
+.synonyms-popup {
+	position: absolute;
+	transform: translateX(-50%);
+	background-color: white;
+	padding: 12px;
+	margin-left: 16px;
+	box-shadow: 1px 1px 6px 1px #c7c7c7;
+}
+
+.synonyms-popup ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	max-height: 400px;
+	overflow: auto;
+}
+
+.synonyms-popup ul li button {
+	background-color: #fff9f6;
+	border: 1px solid #fea73e;
+	padding: 12px 14px;
+	font-size: 1.15em;
+	border-radius: 5px;
+	margin: 6px 0;
+	min-width: 300px;
+	cursor: pointer;
+}
